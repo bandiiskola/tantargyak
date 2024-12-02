@@ -1,23 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "iskola": [
-    { "id": 1, "tantargy": "Magyar"},
-    { "id": 2, "tantargy": "Matek"},
-    { "id": 3, "tantargy": "Informatika"},
-    { "id": 4, "tantargy": "Testnevelés"},
-    { "id": 5, "tantargy": "Angol"}
-  ],
-  "diak": [
-    { "id": 1, "nev": "Magyar Ágnes"},
-    { "id": 2, "nev": "Ady Endre"},
-    { "id": 3, "nev": "Jakap Béter"},
-    { "id": 4, "nev": "Egyedi Róbert"},
-    { "id": 5, "nev": "Mészáros István"}
-  ],
-  "profile": { "name": "typicode" }
+    "tantargyak": [
+            { "id": 1, "name": "Programozás" },
+            { "id": 2, "name": "Matematika" },
+            { "id": 3, "name": "Tesi" },
+            { "id": 4, "name": "Angol" },
+            { "id": 5, "name": "Magyar" }
+        ],
+        "diak": [
+            { "id": 1, "name": "Péter",
+                "jegyek": [
+                    { "jegy": 5 },
+                    { "jegy": 4 },
+                    { "jegy": 2 },
+                    { "jegy": 2 },
+                    { "jegy": 1 }
+                ]},
+            { "id": 2, "name": "Bence", 
+                "jegyek": [
+                    { "jegy": 5 },
+                    { "jegy": 4 },
+                    { "jegy": 3 },
+                    { "jegy": 3 },
+                    { "jegy": 5 }
+                ]},
+            { "id": 3, "name": "József",
+                "jegyek": [
+                    { "jegy": 5 },
+                    { "jegy": 4 },
+                    { "jegy": 2 },
+                    { "jegy": 3 },
+                    { "jegy": 4 }
+                ] },
+            { "id": 4, "name": "Géza",
+                "jegyek": [
+                    { "jegy": 5 },
+                    { "jegy": 4 },
+                    { "jegy": 1 },
+                    { "jegy": 2 },
+                    { "jegy": 4 }
+                ]  }
+        ]
 }
