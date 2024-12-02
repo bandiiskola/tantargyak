@@ -5,5 +5,19 @@
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
+  "iskola": [
+    { "id": 1, "tantargy": "Magyar"},
+    { "id": 2, "tantargy": "Matek"},
+    { "id": 3, "tantargy": "Informatika"},
+    { "id": 4, "tantargy": "Testnevelés"},
+    { "id": 5, "tantargy": "Angol"}
+  ],
+  "diak": [
+    { "id": 1, "nev": "Magyar Ágnes"},
+    { "id": 2, "nev": "Ady Endre"},
+    { "id": 3, "nev": "Jakap Béter"},
+    { "id": 4, "nev": "Egyedi Róbert"},
+    { "id": 5, "nev": "Mészáros István"}
+  ],
   "profile": { "name": "typicode" }
 }
